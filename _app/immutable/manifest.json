@@ -1,0 +1,620 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-3aca5dbe.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_index-1d6b05f9.js",
+      "_paths-396f020f.js",
+      "_singletons-d1fb5791.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/[locale]/__layout.svelte",
+      "src/routes/[locale]/about/__layout.svelte",
+      "src/routes/[locale]/about/contact.svelte",
+      "src/routes/[locale]/about/faq.svelte",
+      "src/routes/[locale]/about/help.svelte",
+      "src/routes/[locale]/about/index.svelte",
+      "src/routes/[locale]/about/partials/LanguageItem.svelte",
+      "src/routes/[locale]/about/suggestions.svelte",
+      "src/routes/[locale]/alphabets/[script].svelte",
+      "src/routes/[locale]/alphabets/index.svelte",
+      "src/routes/[locale]/bibles/[bible_id].svelte",
+      "src/routes/[locale]/bibles/index.svelte",
+      "src/routes/[locale]/countries/[id].svelte",
+      "src/routes/[locale]/countries/index.svelte",
+      "src/routes/[locale]/downloads/index.svelte",
+      "src/routes/[locale]/index.svelte",
+      "src/routes/[locale]/languages/[iso].svelte",
+      "src/routes/[locale]/languages/index.svelte",
+      "src/routes/[locale]/maps/Feature.svelte",
+      "src/routes/[locale]/maps/MapToolbar.svelte",
+      "src/routes/[locale]/maps/altMap.svelte",
+      "src/routes/[locale]/maps/countries.svelte",
+      "src/routes/[locale]/maps/index.svelte",
+      "src/routes/[locale]/maps/sample/index.svelte",
+      "src/routes/[locale]/organizations/[organization_id].svelte",
+      "src/routes/[locale]/organizations/fobai.svelte",
+      "src/routes/[locale]/organizations/index.svelte",
+      "src/routes/[locale]/organizations/map.svelte",
+      "src/routes/[locale]/organizations/resources/index.svelte",
+      "src/routes/index.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-cff036ab.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_navigation-0e6511d1.js",
+      "_paths-396f020f.js",
+      "_stores-174d2038.js",
+      "_index-6ec3afb4.js",
+      "_singletons-d1fb5791.js",
+      "_index-1d6b05f9.js"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-32c8666c.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js"
+    ]
+  },
+  "src/routes/[locale]/__layout.svelte": {
+    "file": "pages/_locale_/__layout.svelte-994e599d.js",
+    "src": "src/routes/[locale]/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_stores-174d2038.js",
+      "_index-6ec3afb4.js",
+      "_index-1d6b05f9.js",
+      "__commonjsHelpers-c771f69b.js"
+    ],
+    "css": [
+      "assets/pages/_locale_/__layout.svelte-7d6d5237.css"
+    ]
+  },
+  "src/routes/[locale]/about/__layout.svelte": {
+    "file": "pages/_locale_/about/__layout.svelte-4854cf0f.js",
+    "src": "src/routes/[locale]/about/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_stores-174d2038.js",
+      "_index-6ec3afb4.js",
+      "_index-1d6b05f9.js"
+    ]
+  },
+  "src/routes/[locale]/about/contact.svelte": {
+    "file": "pages/_locale_/about/contact.svelte-701f25a6.js",
+    "src": "src/routes/[locale]/about/contact.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js"
+    ]
+  },
+  "src/routes/[locale]/about/faq.svelte": {
+    "file": "pages/_locale_/about/faq.svelte-6473e8ce.js",
+    "src": "src/routes/[locale]/about/faq.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_index-6ec3afb4.js",
+      "_index-1d6b05f9.js"
+    ]
+  },
+  "src/routes/[locale]/about/help.svelte": {
+    "file": "pages/_locale_/about/help.svelte-babeda9f.js",
+    "src": "src/routes/[locale]/about/help.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_index-6ec3afb4.js",
+      "_index-1d6b05f9.js"
+    ]
+  },
+  "src/routes/[locale]/about/index.svelte": {
+    "file": "pages/_locale_/about/index.svelte-e3327817.js",
+    "src": "src/routes/[locale]/about/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_index-6ec3afb4.js",
+      "_index-1d6b05f9.js"
+    ]
+  },
+  "src/routes/[locale]/about/partials/LanguageItem.svelte": {
+    "file": "pages/_locale_/about/partials/LanguageItem.svelte-537d5dfa.js",
+    "src": "src/routes/[locale]/about/partials/LanguageItem.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js"
+    ],
+    "css": [
+      "assets/LanguageItem.svelte_svelte_type_style_lang-ea7802e4.css"
+    ]
+  },
+  "src/routes/[locale]/about/suggestions.svelte": {
+    "file": "pages/_locale_/about/suggestions.svelte-9dfa5267.js",
+    "src": "src/routes/[locale]/about/suggestions.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_index-6ec3afb4.js",
+      "_index-1d6b05f9.js"
+    ],
+    "css": [
+      "assets/pages/_locale_/about/suggestions.svelte-79b851e2.css",
+      "assets/LanguageItem.svelte_svelte_type_style_lang-ea7802e4.css"
+    ]
+  },
+  "src/routes/[locale]/alphabets/[script].svelte": {
+    "file": "pages/_locale_/alphabets/_script_.svelte-e71d3ebc.js",
+    "src": "src/routes/[locale]/alphabets/[script].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_fallback-fetch-a48aa048.js",
+      "_index-6ec3afb4.js",
+      "_lodash-d3625e87.js",
+      "_Datatable-3d56e244.js",
+      "_TabPanel-cc52de56.js",
+      "_stores-174d2038.js",
+      "_index-1d6b05f9.js",
+      "__commonjsHelpers-c771f69b.js"
+    ]
+  },
+  "src/routes/[locale]/alphabets/index.svelte": {
+    "file": "pages/_locale_/alphabets/index.svelte-24645316.js",
+    "src": "src/routes/[locale]/alphabets/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_fallback-fetch-a48aa048.js",
+      "_index-6ec3afb4.js",
+      "_Datatable-3d56e244.js",
+      "_lodash-d3625e87.js",
+      "_index-1d6b05f9.js",
+      "__commonjsHelpers-c771f69b.js"
+    ]
+  },
+  "src/routes/[locale]/bibles/[bible_id].svelte": {
+    "file": "pages/_locale_/bibles/_bible_id_.svelte-9077505b.js",
+    "src": "src/routes/[locale]/bibles/[bible_id].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_fallback-fetch-a48aa048.js",
+      "_index-6ec3afb4.js",
+      "_lodash-d3625e87.js",
+      "_Banner-cfcbfa74.js",
+      "_index-1d6b05f9.js",
+      "__commonjsHelpers-c771f69b.js"
+    ]
+  },
+  "src/routes/[locale]/bibles/index.svelte": {
+    "file": "pages/_locale_/bibles/index.svelte-687c67e2.js",
+    "src": "src/routes/[locale]/bibles/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_fallback-fetch-a48aa048.js",
+      "_index-6ec3afb4.js",
+      "_lodash-d3625e87.js",
+      "_Datatable-3d56e244.js",
+      "_Banner-cfcbfa74.js",
+      "_index-1d6b05f9.js",
+      "__commonjsHelpers-c771f69b.js"
+    ]
+  },
+  "src/routes/[locale]/countries/[id].svelte": {
+    "file": "pages/_locale_/countries/_id_.svelte-9a4cfbd1.js",
+    "src": "src/routes/[locale]/countries/[id].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_fallback-fetch-a48aa048.js",
+      "_index-6ec3afb4.js",
+      "_lodash-d3625e87.js",
+      "_Datatable-3d56e244.js",
+      "_index-1d6b05f9.js",
+      "__commonjsHelpers-c771f69b.js"
+    ]
+  },
+  "src/routes/[locale]/countries/index.svelte": {
+    "file": "pages/_locale_/countries/index.svelte-d26a9e75.js",
+    "src": "src/routes/[locale]/countries/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_fallback-fetch-a48aa048.js",
+      "_index-6ec3afb4.js",
+      "_lodash-d3625e87.js",
+      "_Datatable-3d56e244.js",
+      "_Banner-cfcbfa74.js",
+      "_index-1d6b05f9.js",
+      "__commonjsHelpers-c771f69b.js"
+    ]
+  },
+  "src/routes/[locale]/downloads/index.svelte": {
+    "file": "pages/_locale_/downloads/index.svelte-4284002c.js",
+    "src": "src/routes/[locale]/downloads/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js"
+    ]
+  },
+  "src/routes/[locale]/index.svelte": {
+    "file": "pages/_locale_/index.svelte-086399f3.js",
+    "src": "src/routes/[locale]/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_WorldMap-30d2183e.js",
+      "_navigation-0e6511d1.js",
+      "_singletons-d1fb5791.js",
+      "_index-e3896a27.js",
+      "_color-2614ec3d.js",
+      "_index-6ec3afb4.js",
+      "_index-1d6b05f9.js",
+      "_naturalEarth1-89fb1df9.js"
+    ]
+  },
+  "src/routes/[locale]/languages/[iso].svelte": {
+    "file": "pages/_locale_/languages/_iso_.svelte-ae282927.js",
+    "src": "src/routes/[locale]/languages/[iso].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_fallback-fetch-a48aa048.js",
+      "_index-6ec3afb4.js",
+      "_lodash-d3625e87.js",
+      "_Banner-cfcbfa74.js",
+      "_TabPanel-cc52de56.js",
+      "_Datatable-3d56e244.js",
+      "_index-1d6b05f9.js",
+      "__commonjsHelpers-c771f69b.js"
+    ]
+  },
+  "src/routes/[locale]/languages/index.svelte": {
+    "file": "pages/_locale_/languages/index.svelte-66de3d80.js",
+    "src": "src/routes/[locale]/languages/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_fallback-fetch-a48aa048.js",
+      "_index-6ec3afb4.js",
+      "_lodash-d3625e87.js",
+      "_Datatable-3d56e244.js",
+      "_Banner-cfcbfa74.js",
+      "_index-1d6b05f9.js",
+      "__commonjsHelpers-c771f69b.js"
+    ]
+  },
+  "src/routes/[locale]/maps/Feature.svelte": {
+    "file": "pages/_locale_/maps/Feature.svelte-0b57b5b5.js",
+    "src": "src/routes/[locale]/maps/Feature.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_index-1d6b05f9.js",
+      "_color-2614ec3d.js"
+    ],
+    "css": [
+      "assets/pages/_locale_/maps/Feature.svelte-fdd71670.css"
+    ]
+  },
+  "src/routes/[locale]/maps/MapToolbar.svelte": {
+    "file": "pages/_locale_/maps/MapToolbar.svelte-660ed5e5.js",
+    "src": "src/routes/[locale]/maps/MapToolbar.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js"
+    ],
+    "css": [
+      "assets/pages/_locale_/maps/MapToolbar.svelte-60655d2c.css"
+    ]
+  },
+  "src/routes/[locale]/maps/altMap.svelte": {
+    "file": "pages/_locale_/maps/altMap.svelte-59a03265.js",
+    "src": "src/routes/[locale]/maps/altMap.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "__commonjsHelpers-c771f69b.js",
+      "_navigation-0e6511d1.js",
+      "_index-6ec3afb4.js",
+      "src/routes/[locale]/maps/MapToolbar.svelte",
+      "_singletons-d1fb5791.js",
+      "_index-1d6b05f9.js"
+    ],
+    "css": [
+      "assets/pages/_locale_/maps/altMap.svelte-3e3ba29c.css"
+    ]
+  },
+  "src/routes/[locale]/maps/countries.svelte": {
+    "file": "pages/_locale_/maps/countries.svelte-a1823544.js",
+    "src": "src/routes/[locale]/maps/countries.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_index-6ec3afb4.js",
+      "_Banner-e0ac8280.js",
+      "_MapBlock-6c2fda92.js",
+      "_index-1d6b05f9.js",
+      "_Breadcrumbs-a17c1eef.js",
+      "_index-e3896a27.js",
+      "_color-2614ec3d.js"
+    ]
+  },
+  "src/routes/[locale]/maps/index.svelte": {
+    "file": "pages/_locale_/maps/index.svelte-fac9f82b.js",
+    "src": "src/routes/[locale]/maps/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_index-6ec3afb4.js",
+      "_Banner-e0ac8280.js",
+      "_MapBlock-6c2fda92.js",
+      "_index-1d6b05f9.js",
+      "_Breadcrumbs-a17c1eef.js",
+      "_index-e3896a27.js",
+      "_color-2614ec3d.js"
+    ]
+  },
+  "src/routes/[locale]/maps/sample/index.svelte": {
+    "file": "pages/_locale_/maps/sample/index.svelte-d65116dc.js",
+    "src": "src/routes/[locale]/maps/sample/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_index-e3896a27.js",
+      "_naturalEarth1-89fb1df9.js",
+      "_color-2614ec3d.js"
+    ],
+    "css": [
+      "assets/pages/_locale_/maps/sample/index.svelte-c4e511c3.css"
+    ]
+  },
+  "src/routes/[locale]/organizations/[organization_id].svelte": {
+    "file": "pages/_locale_/organizations/_organization_id_.svelte-e8f2ac9a.js",
+    "src": "src/routes/[locale]/organizations/[organization_id].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_fallback-fetch-a48aa048.js",
+      "_index-6ec3afb4.js",
+      "_lodash-d3625e87.js",
+      "_Datatable-3d56e244.js",
+      "_Breadcrumbs-a17c1eef.js",
+      "_index-1d6b05f9.js",
+      "__commonjsHelpers-c771f69b.js"
+    ]
+  },
+  "src/routes/[locale]/organizations/fobai.svelte": {
+    "file": "pages/_locale_/organizations/fobai.svelte-36ff3f52.js",
+    "src": "src/routes/[locale]/organizations/fobai.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_fallback-fetch-a48aa048.js",
+      "_index-6ec3afb4.js",
+      "_Banner-e0ac8280.js",
+      "_index-1d6b05f9.js",
+      "_Breadcrumbs-a17c1eef.js"
+    ]
+  },
+  "src/routes/[locale]/organizations/index.svelte": {
+    "file": "pages/_locale_/organizations/index.svelte-2ba5873d.js",
+    "src": "src/routes/[locale]/organizations/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_fallback-fetch-a48aa048.js",
+      "_index-6ec3afb4.js",
+      "_lodash-d3625e87.js",
+      "_Datatable-3d56e244.js",
+      "_Banner-cfcbfa74.js",
+      "_index-1d6b05f9.js",
+      "__commonjsHelpers-c771f69b.js"
+    ]
+  },
+  "src/routes/[locale]/organizations/map.svelte": {
+    "file": "pages/_locale_/organizations/map.svelte-71b21d7a.js",
+    "src": "src/routes/[locale]/organizations/map.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_fallback-fetch-a48aa048.js",
+      "_WorldMap-30d2183e.js",
+      "_navigation-0e6511d1.js",
+      "_singletons-d1fb5791.js",
+      "_index-e3896a27.js",
+      "_color-2614ec3d.js",
+      "_index-6ec3afb4.js",
+      "_index-1d6b05f9.js",
+      "_naturalEarth1-89fb1df9.js"
+    ]
+  },
+  "src/routes/[locale]/organizations/resources/index.svelte": {
+    "file": "pages/_locale_/organizations/resources/index.svelte-97878eda.js",
+    "src": "src/routes/[locale]/organizations/resources/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_fallback-fetch-a48aa048.js",
+      "_index-6ec3afb4.js",
+      "_lodash-d3625e87.js",
+      "_Datatable-3d56e244.js",
+      "_Banner-cfcbfa74.js",
+      "_index-1d6b05f9.js",
+      "__commonjsHelpers-c771f69b.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-7e7a3db5.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-c08c0301.js",
+      "_navigation-0e6511d1.js",
+      "_index-6ec3afb4.js",
+      "_singletons-d1fb5791.js",
+      "_index-1d6b05f9.js"
+    ]
+  },
+  "_index-c08c0301.js": {
+    "file": "chunks/index-c08c0301.js"
+  },
+  "_index-1d6b05f9.js": {
+    "file": "chunks/index-1d6b05f9.js",
+    "imports": [
+      "_index-c08c0301.js"
+    ]
+  },
+  "_paths-396f020f.js": {
+    "file": "chunks/paths-396f020f.js"
+  },
+  "_singletons-d1fb5791.js": {
+    "file": "chunks/singletons-d1fb5791.js"
+  },
+  "_navigation-0e6511d1.js": {
+    "file": "chunks/navigation-0e6511d1.js",
+    "imports": [
+      "_singletons-d1fb5791.js"
+    ]
+  },
+  "_stores-174d2038.js": {
+    "file": "chunks/stores-174d2038.js",
+    "imports": [
+      "_index-c08c0301.js"
+    ]
+  },
+  "_index-6ec3afb4.js": {
+    "file": "chunks/index-6ec3afb4.js",
+    "imports": [
+      "_index-1d6b05f9.js"
+    ]
+  },
+  "__commonjsHelpers-c771f69b.js": {
+    "file": "chunks/_commonjsHelpers-c771f69b.js"
+  },
+  "_fallback-fetch-a48aa048.js": {
+    "file": "chunks/fallback-fetch-a48aa048.js"
+  },
+  "_lodash-d3625e87.js": {
+    "file": "chunks/lodash-d3625e87.js",
+    "imports": [
+      "_index-c08c0301.js",
+      "_index-1d6b05f9.js",
+      "__commonjsHelpers-c771f69b.js"
+    ],
+    "css": [
+      "assets/lodash-19fd6881.css"
+    ]
+  },
+  "_Datatable-3d56e244.js": {
+    "file": "chunks/Datatable-3d56e244.js",
+    "imports": [
+      "_index-c08c0301.js",
+      "_index-1d6b05f9.js",
+      "_lodash-d3625e87.js"
+    ]
+  },
+  "_TabPanel-cc52de56.js": {
+    "file": "chunks/TabPanel-cc52de56.js",
+    "imports": [
+      "_index-c08c0301.js",
+      "_lodash-d3625e87.js",
+      "_index-1d6b05f9.js"
+    ]
+  },
+  "_Banner-cfcbfa74.js": {
+    "file": "chunks/Banner-cfcbfa74.js",
+    "imports": [
+      "_index-c08c0301.js"
+    ]
+  },
+  "_WorldMap-30d2183e.js": {
+    "file": "chunks/WorldMap-30d2183e.js",
+    "imports": [
+      "_index-c08c0301.js",
+      "_navigation-0e6511d1.js",
+      "_index-e3896a27.js",
+      "_index-6ec3afb4.js",
+      "_naturalEarth1-89fb1df9.js"
+    ]
+  },
+  "_index-e3896a27.js": {
+    "file": "chunks/index-e3896a27.js",
+    "imports": [
+      "_color-2614ec3d.js"
+    ]
+  },
+  "_naturalEarth1-89fb1df9.js": {
+    "file": "chunks/naturalEarth1-89fb1df9.js"
+  },
+  "_color-2614ec3d.js": {
+    "file": "chunks/color-2614ec3d.js"
+  },
+  "_Banner-e0ac8280.js": {
+    "file": "chunks/Banner-e0ac8280.js",
+    "imports": [
+      "_index-c08c0301.js",
+      "_Breadcrumbs-a17c1eef.js"
+    ]
+  },
+  "_MapBlock-6c2fda92.js": {
+    "file": "chunks/MapBlock-6c2fda92.js",
+    "imports": [
+      "_index-c08c0301.js",
+      "_index-e3896a27.js"
+    ]
+  },
+  "_Breadcrumbs-a17c1eef.js": {
+    "file": "chunks/Breadcrumbs-a17c1eef.js",
+    "imports": [
+      "_index-c08c0301.js",
+      "_index-6ec3afb4.js"
+    ]
+  }
+}
